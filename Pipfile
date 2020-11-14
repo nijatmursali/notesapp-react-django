@@ -8,7 +8,6 @@ django = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 twisted = {path = "./Twisted-20.3.0-cp39-cp39-win_amd64.whl"}
-channels = {path = "./channels"}
 
 [dev-packages]
 

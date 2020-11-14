@@ -132,11 +132,11 @@ STATIC_URL = '/static/'
 ASGI_APPLICATION = "notes_project.routing.application"
 
 
-CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            "HOSTS": [{'127.0.0.1', 6379}]
-        }
-    }
-}
+# CHANNEL_LAYERS = {
+#     'default': {
+#         'BACKEND': 'channels_redis.core.RedisChannelLayer',
+#         'CONFIG': {
+#             "HOSTS": [{'127.0.0.1', 6379}]
+#         }
+#     }
+# }
